@@ -7,6 +7,6 @@ serve:
 				
 .PHONEY: test
 test:
-				npm test
+				npm test --watchAll
 		
 PHONY: serve test
